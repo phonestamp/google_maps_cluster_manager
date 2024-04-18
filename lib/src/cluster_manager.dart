@@ -6,14 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_cluster_manager/google_maps_cluster_manager.dart';
 import 'package:google_maps_cluster_manager/src/max_dist_clustering.dart';
 import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart'
-    show
-        GoogleMapsFlutterPlatform,
-        Marker,
-        MarkerId,
-        BitmapDescriptor,
-        LatLng,
-        LatLngBounds,
-        CameraPosition;
+    hide Cluster;
 
 enum ClusterAlgorithm { GEOHASH, MAX_DIST }
 
